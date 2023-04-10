@@ -1,0 +1,174 @@
+/* root, body */
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+/* ========================COMMON========================== */
+.list {
+  list-style: none;
+  color: #2e2f42;
+}
+.link {
+  text-decoration: none;
+}
+/* ========================COMMON========================== */
+
+/* ========================HEADER========================== */
+.logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.logo-text-header {
+  color: #2e2f42;
+}
+.menu-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.logo:focus,
+.logo-text-header:focus,
+.menu-item:focus,
+.contacts:focus,
+.logo:hover,
+.logo-text-header:hover,
+.menu-item:hover,
+.contacts:hover,
+.logo-text-footer:focus,
+.logo-text-footer:hover {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
+/* ========================HEADER========================== */
+
+/* =========================HERO=========================== */
+.hero-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.hero-button:hover {
+  background: #404bbf;
+}
+
+/* =========================HERO=========================== */
+/* =========================SECTION=========================== */
+.topics {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.names {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.team-section {
+  background: #f4f4fd;
+}
+.hero-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.hero {
+  background-color: #2e2f42;
+  height: 600px;
+  width: 1440px;
+}
+/* =========================SECTION=========================== */
+
+/* ==========================PORTFOLIO========================== */
+.filter-item-button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  width: 116px;
+  height: 48px;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+.filter-item-button:focus,
+.filter-item-button:hover {
+  color: #ffffff;
+  background: #404bbf;
+}
+/* ==========================PORTFOLIO========================== */
+
+/* =========================FOOTER=========================== */
+.logo-text-footer {
+  color: #ffffff;
+}
+.footer-section {
+  width: 1440px;
+  height: 312px;
+  left: 0px;
+  top: 2280px;
+  background: #2e2f42;
+}
+.footer-text {
+  width: 264px;
+  height: 72px;
+  left: 156px;
+  top: 2420px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+/* =========================FOOTER=========================== */
