@@ -57,9 +57,7 @@ body {
 .menu-item:focus,
 .contacts:focus,
 .menu-item:hover,
-.contacts:hover,
-.logo-text-footer:focus,
-.logo-text-footer:hover {
+.contacts:hover {
   color: var(--button-hoover);
 }
 .address {
