@@ -2,19 +2,23 @@
 :root {
   --primaty-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
+  --body-color: #434455;
   --button-color: #4d5ae5;
   --button-hoover: #404bbf;
   --secondary-color: #2e2f42;
+  --main-background-color: #ffffff;
+  --second-background-color: #f4f4fd;
+  --button-border-color: #e7e9fc;
 }
 body {
   font-family: var(--primaty-font);
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--body-color);
+  background-color: var(--main-background-color);
 }
 /* ========================COMMON========================== */
 .list {
   list-style: none;
-  color: #2e2f42;
+  color: var(--secondary-color);
 }
 .link {
   text-decoration: none;
@@ -32,9 +36,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--button-color);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .logo-text-header {
   color: var(--secondary-color);
@@ -45,22 +46,16 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .contacts {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--body-color);
 }
-.logo:focus,
-.logo-text-header:focus,
+
 .menu-item:focus,
 .contacts:focus,
-.logo:hover,
-.logo-text-header:hover,
 .menu-item:hover,
 .contacts:hover,
 .logo-text-footer:focus,
@@ -74,32 +69,18 @@ body {
 
 /* =========================HERO=========================== */
 .hero-button {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
   padding: 16px 32px;
-  gap: 10px;
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 428px;
   background: var(--button-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--main-background-color);
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -123,13 +104,10 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  color: var(--secondary-color);
 }
 .team-section {
-  background: #f4f4fd;
+  background: var(--second-background-color);
 }
 .hero-text {
   font-weight: 700;
@@ -137,10 +115,10 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--main-background-color);
 }
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--secondary-color);
   height: 600px;
   width: 1440px;
 }
@@ -150,18 +128,12 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .abilities-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  color: #434455;
+  color: var(--body-color);
 }
 .team-card {
   display: flex;
@@ -169,12 +141,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0px 0px 32px;
-  gap: 32px;
-  width: 264px;
-  height: 380px;
-  left: 156px;
-  top: 1780px;
-  background: #ffffff;
+  background: var(--main-background-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -185,64 +152,50 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  color: #434455;
+  color: var(--body-color);
 }
 /* =========================SECTION=========================== */
 
 /* ==========================PORTFOLIO========================== */
 .filter-item-button {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 12px 24px;
-  width: 116px;
-  height: 48px;
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
+  background: var(--second-background-color);
+  border: 1px solid var(--button-border-color);
   border-radius: 4px;
-  flex-grow: 0;
-  color: #4d5ae5;
+  color: var(--button-color);
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
 }
 .filter-item-button:focus,
 .filter-item-button:hover {
-  color: #ffffff;
-  background: #404bbf;
+  color: var(--main-background-color);
+  background: var(--button-hoover);
 }
 .examples-item {
-  width: 360px;
-  height: 420px;
-  left: 156px;
-  top: 288px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
+  background: var(--main-background-color);
+  border: 1px solid var(--button-border-color);
 }
 /* ==========================PORTFOLIO========================== */
 
 /* =========================FOOTER=========================== */
 .logo-text-footer {
-  color: #f4f4fd;
+  color: var(--second-background-color);
 }
 .footer-section {
   width: 1440px;
   height: 312px;
   left: 0px;
   top: 2280px;
-  background: #2e2f42;
+  background: var(--secondary-color);
 }
 .footer-text {
   width: 264px;
@@ -252,6 +205,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--second-background-color);
 }
 /* =========================FOOTER=========================== */
